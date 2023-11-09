@@ -5,7 +5,6 @@ use the parameter 'number' as an input
 return the answer as variable 'output'
 code your response in the function "submission"
 '''
-import sys
 
 def submission(number):
   output = int()
@@ -13,4 +12,3 @@ def submission(number):
   output = number*2  
   return output
 
-print(submission(sys.argv[0]))
