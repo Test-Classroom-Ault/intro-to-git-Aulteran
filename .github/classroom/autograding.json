@@ -13,7 +13,7 @@
     {
       "name": "in_out_test",
       "setup": "",
-      "run": "py ./assign_to_student.py",
+      "run": "python ./assign_to_student.py",
       "input": "-1",
       "output": "2",
       "comparison": "included",
