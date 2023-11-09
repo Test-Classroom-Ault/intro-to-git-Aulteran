@@ -1,5 +1,15 @@
 import assign_to_student
 
 def test_assign_to_student():
-    assert assign_to_student.submission(2) == 4
-    assert assign_to_student.submission(-1) == -2
+    try:
+        # these two assertions are the actual tests
+        assert assign_to_student.submission(2) == 4 
+        assert assign_to_student.submission(-1) == -2
+        print("All Tests Passed") # print statements should appear as github comments
+    except:
+        print("Tests Failed")
+
+    # if you want to print specifically what testcase failed,
+    # then you can create separate try/except clauses
+    # ==OR== create a list "testcases" with tuples as such: (input, output)
+    # then create a for loop around the try/except and run each testcase through it
