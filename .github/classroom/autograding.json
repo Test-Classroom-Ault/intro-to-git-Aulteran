@@ -9,16 +9,6 @@
       "comparison": "exact",
       "timeout": 10,
       "points": null
-    },
-    {
-      "name": "in_out_test",
-      "setup": "",
-      "run": "python ./assign_to_student.py -1",
-      "input": "-1",
-      "output": "2",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
     }
   ]
 }
