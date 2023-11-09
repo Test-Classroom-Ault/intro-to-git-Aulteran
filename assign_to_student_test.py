@@ -9,7 +9,7 @@ def test_assign_to_student():
     except:
         raise Exception("Tests Failed")
 
-    # if you want to print specifically what testcase failed,
-    # then you can create separate try/except clauses
+    # if you want to specify what testcase failed,
+    #  you can create separate try/except clauses with other exceptions
     # ==OR== create a list "testcases" with tuples as such: (input, output)
     # then create a for loop around the try/except and run each testcase through it
