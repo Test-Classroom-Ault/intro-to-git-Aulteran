@@ -13,4 +13,4 @@ def submission(number):
   output = number*2  
   return output
 
-submission(sys.argv[0])
+print(submission(sys.argv[0]))
