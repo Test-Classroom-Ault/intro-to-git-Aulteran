@@ -9,5 +9,6 @@ code your response in the function "submission"
 def submission(number):
   output = int()
   # code your submission here
+  output = number*2
   
   return output
